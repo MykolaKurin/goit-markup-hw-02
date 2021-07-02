@@ -23,8 +23,9 @@ body {
 }
 
 .hero-section {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: 900;
+  font-style: normal;
   font-size: 44px;
   line-height: 136%;
   text-align: center;
@@ -35,7 +36,7 @@ body {
 }
 
 .button {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500px;
   font-size: 16px;
@@ -68,21 +69,68 @@ body {
   color: white;
   background-color: #2196f3;
 }
+.features {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.03em;
+}
 
+.what-we-do-header {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
 .our-team-style {
   background-color: #f5f4fa;
-  font-family: Roboto;
-  font-weight: normal;
+}
+.our-team-header {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.our-team-members {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.03em;
+  text-align: center;
+}
+.our-team-profession {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.projects-style-item {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 200%;
+  letter-spacing: 0.06em;
+}
+.projects-style-description {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 187%;
+  letter-spacing: 0.06em;
 }
 .portfolio-btn {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 162%;
-  text-align: center;
   letter-spacing: 0.03em;
 }
 .portfolio-btn:hover,
