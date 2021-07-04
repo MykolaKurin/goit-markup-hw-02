@@ -24,6 +24,7 @@ body {
 }
 
 .hero-section {
+  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
