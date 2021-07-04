@@ -13,6 +13,9 @@ body {
 .header-color1 {
   color: var(--brand-color);
 }
+.header-color2 {
+  color: #000000;
+}
 .site-nav {
   font-weight: 500;
   font-size: 14px;
@@ -24,6 +27,11 @@ body {
 }
 
 .hero-section {
+  background-color: #2f303a;
+  text-align: center;
+}
+
+.hero-section-title {
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -32,7 +40,7 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-  background-color: #000;
+  background-color: #2f303a;
 }
 
 .button {
@@ -69,18 +77,24 @@ body {
 }
 
 .features {
-  font-weight: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16.41px;
+  text-transform: uppercase;
+}
+.features-1 {
+  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  letter-spacing: 0.03em;
+  color: #757575;
 }
 
 .what-we-do-header {
-  font-weight: bold;
-  font-size: 36px;
+  font-weight: 700;
+  font-size: 46px;
   line-height: 42px;
-  letter-spacing: 0.03em;
   text-align: center;
+  color: #212121;
 }
 .our-team-style {
   background-color: #f5f4fa;
@@ -131,7 +145,7 @@ body {
 }
 
 .footer-style {
-  background-color: #000;
+  background-color: #2f303a;
 }
 .footer-color2 {
   color: #ffffff;
