@@ -2,14 +2,16 @@ body {
   font-size: 14px;
   font-family: "Roboto", sans-serif;
 }
-
+:root {
+  --brand-color: #2196f3;
+}
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: bold;
   font-size: 26px;
 }
 .header-color1 {
-  color: #2196f3;
+  color: var(--brand-color);
 }
 .site-nav {
   font-weight: 500;
@@ -18,13 +20,13 @@ body {
 }
 .site-nav:hover,
 .site-nav:focus {
-  color: #2196f3;
+  color: var(--brand-color);
 }
 
 .hero-section {
   font-weight: 900;
   font-size: 44px;
-  line-height: 136%;
+  line-height: 60px;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -35,40 +37,40 @@ body {
 .button {
   font-weight: 500;
   font-size: 16px;
-  line-height: 187%;
+  line-height: 30px;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: white;
-  background-color: #2196f3;
+  color: #ffffff;
+  background-color: var(--brand-color);
   cursor: pointer;
 }
 
 .button-color1 {
   font-weight: 500;
   font-size: 16px;
-  line-height: 162%;
+  line-height: 26px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: white;
-  background-color: #2196f3;
+  color: #ffffff;
+  background-color: var(--brand-color);
   cursor: pointer;
 }
 .button-color1:hover,
 .button-color1:focus {
   font-weight: 500;
   font-size: 16px;
-  line-height: 162%;
+  line-height: 26px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: white;
-  background-color: #2196f3;
+  color: #ffffff;
+  background-color: var(--brand-color);
 }
 
 .features {
   font-weight: normal;
   font-size: 14px;
-  line-height: 171%;
+  line-height: 24px;
   letter-spacing: 0.03em;
 }
 
@@ -104,44 +106,43 @@ body {
   text-align: center;
 }
 .projects-style-item {
-  font-weight: bold;
   font-size: 18px;
-  line-height: 200%;
+  line-height: 36px;
   letter-spacing: 0.06em;
 }
 .projects-style-description {
   font-weight: normal;
   font-size: 16px;
-  line-height: 187%;
+  line-height: 30px;
   letter-spacing: 0.06em;
 }
 .portfolio-btn {
   font-weight: 500;
   font-size: 16px;
-  line-height: 162%;
+  line-height: 26px;
   letter-spacing: 0.03em;
   cursor: pointer;
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus {
-  color: white;
-  background-color: #2196f3;
+  color: #ffffff;
+  background-color: var(--brand-color);
 }
 
 .footer-style {
-  background-color: black;
+  background-color: #000;
 }
 .footer-color2 {
-  color: white;
+  color: #ffffff;
 }
 .address {
   font-style: normal;
-  color: white;
+  color: #ffffff;
 }
 .phone-mail {
   color: #757575;
 }
 .phone-mail:hover,
 .phone-mail:focus {
-  color: #2196f3;
+  color: var(--brand-color);
 }
